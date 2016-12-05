@@ -1,7 +1,7 @@
 {
   "name": "purescript-freearr",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "scripts": {
     "test": "node -e 'require(\"./output/Test.Main\").main()'"
