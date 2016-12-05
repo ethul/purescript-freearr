@@ -1,3 +1,9 @@
+-- | This module defines a free arrows.
+-- |
+-- | The implementation of this module is based on Exequiel Rivas and Mauro
+-- | Jaskelioff's work.
+-- |
+-- | See [Notions of Computation as Monoids](http://www.fceia.unr.edu.ar/~mauro/pubs/Notions_of_Computation_as_Monoids.pdf) (Rivas and Jaskelioff 2016)
 module Control.Arrow.Free
   ( Free
   , NaturalTransformation'
