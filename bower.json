@@ -1,0 +1,17 @@
+{
+  "name": "purescript-freearr",
+  "license": "MIT",
+  "ignore": [
+    "*",
+    "!src/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ethul/purescript-freearr.git"
+  },
+  "dependencies": {
+    "purescript-profunctor": "^2.0.0",
+    "purescript-tuples": "^3.0.0",
+    "purescript-exists": "^2.0.0"
+  }
+}
