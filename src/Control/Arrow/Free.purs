@@ -27,11 +27,8 @@ type NaturalTransformation' p q = forall x y. p x y -> q x y
 
 infixr 4 type NaturalTransformation' as ~~>
 
-comp' :: forall a x y z. a x z -> Free a z y -> Comp' a x y z
-comp' = Comp'
-
 comp :: forall a x y z. a x z -> Free a z y -> Free a x y
-comp x y = Comp (mkExists (comp' x y))
+comp x y = Comp (mkExists (Comp' x y))
 
 liftFreeArr :: forall a. Profunctor a => a ~~> Free a
 liftFreeArr x = comp x (arr id)
